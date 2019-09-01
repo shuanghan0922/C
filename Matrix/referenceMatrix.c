@@ -28,7 +28,7 @@ bool InitMatrix(Matrix *matrix, int row, int column)
 		matrix->column = column;
 		return true;
 	}
-	else
+	else 
 	{
 		matrix->row = 0;
 		matrix->column = 0;
