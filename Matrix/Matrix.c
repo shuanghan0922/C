@@ -23,7 +23,6 @@ Matrix* AddMatrix(Matrix *matrix_A,Matrix *matrix_B);		//矩阵的加法
 Matrix* MulMatrix(Matrix *matrix_A,Matrix *matrix_B);		//矩阵的乘法
 void TransMatrix(Matrix *matrix);							//矩阵转置
 double AlgMatrix(Matrix *matrix);							//求解矩阵的代数余子式
-void InverseMatrix(Matrix *matrix);							//求解逆矩阵
 
 
 int main(int argc,char* argv[])
@@ -173,8 +172,4 @@ void TransMatrix(Matrix *matrix)			//条件为方阵
 	}
 }
 
-double AlgMatrix(Matrix *matrix)
-{
-	
-}
 
